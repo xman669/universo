@@ -94,6 +94,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <body class="u-body u-overlap u-overlap-contrast"><header class="u-align-center-sm u-align-center-xs u-clearfix u-header u-palette-2-base u-header" id="sec-68ea"><div class="u-clearfix u-sheet u-sheet-1">
     <!-- Google Tag Manager (noscript) -->
+	  <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "110085468245276");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTCZ72L"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -259,14 +289,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </div>
         </div>
-        <div class="u-clearfix u-custom-html u-custom-html-1">
-          <div class="powr-popup" id="ffac0bfe_1643067667"></div>
-          <script src="https://www.powr.io/powr.js?platform=html"></script>
-        </div>
-        <div class="u-clearfix u-custom-html u-custom-html-2">
-          <div class="powr-chat" id="5731ec1f_1643070645"></div>
-          <script src="https://www.powr.io/powr.js?platform=html"></script>
-        </div>
+        
       </div>
     </section>
     <section class="u-clearfix u-image u-shading u-section-2" src="" id="carousel_3673" data-image-width="1000" data-image-height="1000">
