@@ -266,8 +266,8 @@
 .u-section-2 .u-social-icons-1 {
   height: 61px;
   min-height: 16px;
-  width: 369px;
-  min-width: 144px;
+  width: 446px;
+  min-width: 176px;
   white-space: nowrap;
   margin: 40px auto 0;
 }
@@ -292,6 +292,11 @@
 .u-section-2 .u-icon-5 {
   height: 100%;
   color: rgb(218, 31, 50) !important;
+}
+
+.u-section-2 .u-icon-6 {
+  height: 100%;
+  color: rgb(85, 172, 238) !important;
 }
 
 @media (max-width: 1199px) {
@@ -351,8 +356,6 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-social-icons-1 {
-    height: 51px;
-    width: 319px;
     margin-top: 10px;
   }
 }
