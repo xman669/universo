@@ -452,9 +452,17 @@
   margin: 1px auto 0 0;
 }
 
+.u-section-2 .u-form-group-1 {
+  width: 100%;
+}
+
 .u-section-2 .u-input-1 {
   font-size: 1.125rem;
   text-transform: none;
+}
+
+.u-section-2 .u-form-group-2 {
+  width: 100%;
 }
 
 .u-section-2 .u-input-2 {
@@ -462,9 +470,17 @@
   text-transform: none;
 }
 
+.u-section-2 .u-form-group-3 {
+  width: 100%;
+}
+
 .u-section-2 .u-input-3 {
   font-size: 1.125rem;
   text-transform: none;
+}
+
+.u-section-2 .u-form-group-4 {
+  width: 100%;
 }
 
 .u-section-2 .u-btn-2 {
@@ -508,22 +524,6 @@
   .u-section-2 .u-form-1 {
     margin-right: initial;
     margin-left: initial;
-  }
-
-  .u-section-2 .u-form-group-1 {
-    width: 100%;
-  }
-
-  .u-section-2 .u-form-group-2 {
-    width: 100%;
-  }
-
-  .u-section-2 .u-form-group-3 {
-    width: 100%;
-  }
-
-  .u-section-2 .u-form-group-4 {
-    width: 100%;
   }
 }
 
